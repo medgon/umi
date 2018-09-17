@@ -398,7 +398,8 @@ textarea.form-control {
   padding: 12em 0; }
 
 .ftco-section {
-  padding: 7em 0; }
+  padding-top: 3em;
+    padding-bottom: 1em; }
 
 .ftco-bg-dark {
   background: #3c312e; }
@@ -413,7 +414,7 @@ textarea.form-control {
   .ftco-footer p {
     color: rgba(255, 255, 255, 0.3); }
   .ftco-footer a {
-    color: rgba(255, 255, 255, 0.3); }
+    color: #eeb211 }
     .ftco-footer a:hover {
       color: #F96D00; }
   .ftco-footer .ftco-heading {
