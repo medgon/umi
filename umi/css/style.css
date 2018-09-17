@@ -226,13 +226,18 @@ h1, h2, h3, h4, h5,
   font-size: 30px; }
 
 .menu-item {
-  margin-bottom: 30px; }
+  margin-bottom: 25px; }
   .menu-item img {
     width: 100px;
     border-radius: 50%; }
   .menu-item .menu-price {
     font-family: "Playfair Display", serif;
     font-size: 24px; }
+
+.menu-header{
+	margin-left: 10%;
+	
+}
 
 @media screen and (max-width: 768px) {
   .display-4 {
@@ -717,3 +722,17 @@ textarea.form-control {
   100% {
     stroke-dasharray: 89, 200;
     stroke-dashoffset: -136px; } }
+    
+    .menu-block { margin-bottom: 30px; }
+.menu-title { border-bottom: 3px solid #e0e6e3; margin-bottom: 36px; padding-bottom: 10px; }
+.menu-content { border-bottom: 1px solid #e0e6e3; margin-bottom: 30px; }
+.dish-img { }
+.dish-font{
+	fonts-size: 20px;
+}
+.dish-content { margin-top: 10px; margin-bottom: 20px; }
+.dish-meta { font-size: 12px; text-transform: uppercase; display: block; width: 210px; line-height: 1.7; }
+.dish-title { margin-bottom: 6px; font-size: 20px; text-transform: uppercase; font-weight: 500; position: relative; }
+.dish-price { position: absolute; right: 16px; top: 0px; font-size: 26px; color: #e03c23; font-weight: 500; font-family: 'Roboto', serif; }
+.well-block .dish-meta { width: 100%; }
+.well-block .dish-price { font-size: 26px; color: #e03c23; font-weight: 500; font-family: 'Zilla Slab', serif; position: inherit; }
